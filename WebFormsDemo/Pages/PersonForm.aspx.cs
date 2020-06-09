@@ -10,12 +10,12 @@ namespace WebFormsDemo.Pages
 {
     public partial class PersonForm : System.Web.UI.Page
     {
-        
+
         private static List<Person> People = new List<Person>();
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
         protected Exception GetInnerException(Exception ex)
         {
